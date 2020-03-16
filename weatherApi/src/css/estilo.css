@@ -76,3 +76,11 @@
     align-items: center;    
     flex-direction: column;
 }
+
+.main-description, .max-min-temperature{
+    font-size: 25px;
+}
+
+.info-temp{
+    color: #0a0a0acf;
+}
