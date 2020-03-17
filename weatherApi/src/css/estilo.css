@@ -17,6 +17,7 @@
     background-size: cover;
 }
 
+
 .container{
     display: flex;
     flex-direction: column;
@@ -40,9 +41,34 @@
     display: flex;
 }
 
+.field:first-of-type{
+    width: 330px;
+}
+
 .option-selected{
     display: flex;
     flex-direction: row;
+    position: relative;
+}
+
+.autocomplete-div{
+    position: absolute;
+    background: rgba(236, 230, 230, 0.945);
+    margin-left: 10px;
+    top: 49;
+    max-height: 300px;
+    overflow: auto;
+    width: 300px;
+}
+
+.autocomplete-option{
+    padding: 10px;
+    border-bottom: 1px solid rgba(184, 181, 181, 0.486);
+}
+
+.autocomplete-option:hover{
+    background: rgba(216, 213, 213, 0.459);
+    cursor: pointer;
 }
 
 #search-value{
