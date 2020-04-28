@@ -1,3 +1,9 @@
+import { weatherRequest } from '../../api/clima_request.js';
+import { updateWeatherInfo } from '../../src/js/view/weatherInfo.js';
+import { listarCidades } from '../../api/city_request.js';
+import { makeAutocomplete, dismakeAutocomplete } from '../js/autocomplete.js';
+import { messageInformation } from '../../message.js';
+
 const inputSearch = document.querySelector("#search-value");
 const btnPesquisar = document.querySelector("#btn-pesquisa");
 

@@ -1,7 +1,7 @@
-const dismakeAutocomplete = () => autocomplete.innerHTML="";
+export const dismakeAutocomplete = () => autocomplete.innerHTML="";
 
 const autocomplete = document.querySelector(".autocomplete-div");
-const makeAutocomplete = (cidades) => {
+export const makeAutocomplete = (cidades) => {
     console.log(cidades);
     const option = cidades.map(cidade => 
         `<div onclick="setInput(event)" class='autocomplete-option'>${cidade}</div>`).join(' ')

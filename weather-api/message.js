@@ -1,4 +1,4 @@
-function messageInformation(message, head, status){
+export function messageInformation(message, head, status){
   let bgColorResult = '';
   let loaderColor = '';
 

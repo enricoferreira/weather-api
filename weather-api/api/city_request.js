@@ -1,4 +1,4 @@
-const listarCidades = ()=>{
+export const listarCidades = ()=>{
     return fetch('./api/json/city.json')
     .then(r => {
         console.log(r.status);

@@ -4,7 +4,7 @@ const descriptionWeather = document.querySelector("[data-describe]");
 const maxTemperature = document.querySelector('[data-max]');
 const minTemperature = document.querySelector('[data-min]');
 
-function updateWeatherInfo(weather){
+export function updateWeatherInfo(weather){
     nameCity.innerHTML = weather.name;
     currentTemp.innerHTML = weather.main.temp;
     descriptionWeather.innerHTML = weather.weather[0].description;

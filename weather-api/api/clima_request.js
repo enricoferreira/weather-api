@@ -24,3 +24,5 @@ const latLongRequest = (lat, long)=>{
     .then(r => r.json())
     .then(json => json)    
 }
+
+export {forecastRequest, weatherRequest, latLongRequest}
