@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.pattern-font{
+    font-size: 16px;
+}
+
+.page{
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/25/17/55/color-2174045__340.png);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header-weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.current-temperature{
+    font-size: 50px;
+}
+
+.field{
+    padding: 10px;
+    display: flex;
+}
+
+.field:first-of-type{
+    width: 330px;
+}
+
+.option-selected{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.autocomplete-div{
+    position: absolute;
+    background: rgba(236, 230, 230, 0.945);
+    margin-left: 10px;
+    top: 49;
+    max-height: 300px;
+    overflow: auto;
+    width: 300px;
+}
+
+.autocomplete-option{
+    padding: 10px;
+    border-bottom: 1px solid rgba(184, 181, 181, 0.486);
+}
+
+.autocomplete-option:hover{
+    background: rgba(216, 213, 213, 0.459);
+    cursor: pointer;
+}
+
+#search-value{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    background: rgba(236, 230, 230, 0.288);
+}
+
+#btn-pesquisa{
+    text-decoration: none;
+    padding: 4px 12px;
+    border: none;
+    color: black;
+    border-radius: 3px;
+    background: rgba(236, 230, 230, 0.288);
+    transition: .3s;
+    display: flex;
+    align-items: center;
+}
+
+#btn-pesquisa:hover{
+    background: rgba(48, 47, 47, 0.356);
+    color: rgba(253, 253, 253, 0.692);
+    transition: .3s;
+}
+
+.current-template-weather{
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.main-description, .max-min-temperature{
+    font-size: 25px;
+}
+
+.info-temp{
+    color: #0a0a0acf;
+}
