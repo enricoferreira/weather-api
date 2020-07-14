@@ -6,7 +6,7 @@ The weather-api is an app, which use OpenWeatherMap - API : https://openweatherm
 
 <strong>What i need to run the app?</strong>
 <br>
-- node.js -> install -> https://nodejs.org/en/download/
-- http-server install ( after node.js ) -> npm install http-server
-
-- to run the project, type in cmd or terminal: <strong>http-server .</strong>, click in one of the available options.
+- If you don't have node.js installed -> install -> https://nodejs.org/en/download/
+- To check if you have already installed node.js run in terminal -> node -v
+- After that you can run <strong>npm install</strong> on terminal in the root where is package.json file
+- Now, you can run <strong>npm start</strong>
